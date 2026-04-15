@@ -1,0 +1,36 @@
+#!/bin/bash
+# ─────────────────────────────────────────────────────────────
+# AI Review Responder — Deploy to Streamlit Community Cloud
+# ─────────────────────────────────────────────────────────────
+
+REPO="https://github.com/duskmetamask-bit/ai-review-responder"
+
+echo "============================================"
+echo "⭐ AI Review Responder — Deploy Guide"
+echo "============================================"
+echo ""
+echo "📁 GitHub Repo: $REPO"
+echo ""
+echo "STEP 1: Deploy to Streamlit Cloud"
+echo "──────────────────────────────────"
+echo "1. Go to: https://share.streamlit.io"
+echo "2. Sign in with GitHub"
+echo "3. Click 'New app' → Deploy a public app"
+echo "4. Repo: duskmetamask-bit/ai-review-responder"
+echo "5. Branch: main"
+echo "6. Main file path: streamlit_app.py"
+echo "7. Click 'Deploy!'"
+echo ""
+echo "STEP 2: Add Secrets (in Streamlit dashboard)"
+echo "─────────────────────────────────────────────"
+echo "OPENAI_API_KEY=sk-..."
+echo "GOOGLE_API_KEY=your-google-api-key"
+echo "GOOGLE_PLACES_KEY=your-location-id"
+echo "FACEBOOK_ACCESS_TOKEN=your-fb-token"
+echo "BUSINESS_NAME=Your Business"
+echo "OWNER_NAME=Alex"
+echo "OWNER_VOICE=friendly, professional, genuine"
+echo ""
+echo "STEP 3: Done! 🎉"
+echo "App will be live at: https://[your-app].streamlit.app"
+echo "============================================"
